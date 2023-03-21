@@ -13,29 +13,34 @@
         
         <div>
             <label for="Nombredueño">Ingresa tu nombre:</label>
-            <input id="Nombredueño" type="text" placeholder="Maria Fernanda" required>
+            <input id="Nombredueño" type="text" placeholder="Maria Fernanda" autocomplete="off" required maxlength="25" minlength="5">
         </div>
 
         <div>
             <label for="Emaildueño">Ingresa tu email:</label>
-            <input id="Emaildueño" type="text" placeholder="medina.mafer12@gmail.com">
+            <input id="Emaildueño" type="text" placeholder="medina.mafer12@gmail.com" autocomplete="off">
+        </div>
+
+        <div>
+            <label for="telefono">Ingresa tu telefono:</label>
+            <input id="telefono" type="number" placeholder="992619422" autocomplete="off" max="9">
         </div>
 
         <div>
             <label for="Nombremascota">Nombre de tu mascota:</label>
-            <input  id="Nombremascota" type="text" placeholder="Marmotita" required>
+            <input  id="Nombremascota" type="text" placeholder="Marmotita"  autocomplete="off" required>
         </div>
 
         <div>
             <label for="Edadmascota">Edad de tu mascota:</label>
-            <input id="Edadmascota" type="number" placeholder="3">
+            <input id="Edadmascota" type="number" placeholder="3" autocomplete="off" max="2">
         </div>
 
         <div>
             <label for="contra">Contraseña:</label>
-            <input id="contra"type="password">
+            <input id="contra"type="password" autocomplete="off" maxlength="8">
         </div>
-        
+
         <fieldset>
             <legend>¿Qué tipo de mascota tienes?</legend>
             <input id="Perro" type="radio" name="tipoanimal" value="Perro">
