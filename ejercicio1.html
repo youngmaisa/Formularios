@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Bienvenido a la veterinaria</h1>
+    <form action="otravista1.html">
+        
+        <div>
+            <label for="Nombredueño">Ingresa tu nombre:</label>
+            <input id="Nombredueño" type="text" placeholder="Maria Fernanda" required>
+        </div>
+
+        <div>
+            <label for="Emaildueño">Ingresa tu email:</label>
+            <input id="Emaildueño" type="text" placeholder="medina.mafer12@gmail.com">
+        </div>
+
+        <div>
+            <label for="Nombremascota">Nombre de tu mascota:</label>
+            <input  id="Nombremascota" type="text" placeholder="Marmotita" required>
+        </div>
+
+        <div>
+            <label for="Edadmascota">Edad de tu mascota:</label>
+            <input id="Edadmascota" type="number" placeholder="3">
+        </div>
+
+        <fieldset>
+            <legend>¿Qué tipo de mascota tienes?</legend>
+            <input id="Perro" type="radio" name="tipoanimal" value="Perro">
+            <label for="Perro">Perro</label>
+
+            <input id="Gato" type="radio" name="tipoanimal" value="Gato">
+            <label for="Gato">Gato</label>
+
+            <input id="Silvestre" type="radio" name="tipoanimal" value="Silvestre">
+            <label for="Silvestre">Silvestre</label>
+            
+        </fieldset>
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+        
+
+    </form>
+</body>
+</html>
